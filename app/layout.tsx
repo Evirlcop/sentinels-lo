@@ -11,9 +11,9 @@ import { SystemLog } from "@/components/system-log"
 const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-mono" })
 
 export const metadata = {
-  title: "Evilkop Sentinels - Digital Portfolio",
+  title: "Thierry Mukiza - Digital Portfolio", // Updated title for browser tab
   description: "Portfolio of a cybersecurity enthusiast, reverse engineer, and developer",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -23,7 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head></head>
+      <head>
+        {/* Favicon and Apple Touch Icon */}
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
       <body className={`${firaCode.variable} font-sans`}>
         {" "}
         {/* Apply firaCode variable to font-sans */}

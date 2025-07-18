@@ -68,16 +68,16 @@ export default function HomePage() {
           <div className="relative">
             <ImageWithFallback
               src="https://sbojnesivcuawnrpjrfu.supabase.co/storage/v1/object/public/sentinels/hacker.png"
-              alt="Evilkop Sentinels Logo"
+              alt="Thierry Mukiza Logo" // Updated alt text
               width={120}
               height={120}
               className="rounded-full border border-primary/20 shadow-lg animate-pulse-slow" // Added pulse animation
-              fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCA0MCAxMjAgMTIwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcnk9IjYwIiBmaWxsPSIjM2I4MmY2Ii8+CjxzdmcgeD0iMzAiIHk9IjMwIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsejcuNTktNy41OUwxOSAxOGwtOSA5eiIvPgo8L3N2Zz4KPC9zdmc+"
+              fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCA0MCAxMjAgMTIwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmc+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiByeT0iNjAiIGZpbGw9IiMzYjgyZjYiLz4KPHN2ZyB4PSIzMCIgeT0iMzAiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN3o3LjU5LTcuNTlMMTkgMThsLTkgOXoiLz4KPC9zdmc+Cjwvc3ZnPg=="
             />
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground text-glow">
-          <TypewriterEffect text="EVILKOP SENTINELS" speed={100} />
+          <TypewriterEffect text="THIERRY MUKIZA" speed={100} /> {/* Updated text */}
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
           Hi! What you will see here is related to my obsessions. This place is full of fun stuff, and I will use it to

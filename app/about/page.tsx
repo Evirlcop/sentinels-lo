@@ -78,8 +78,7 @@ export default function AboutPage() {
               About Me
             </motion.h1>
             <motion.p className="text-xl text-muted-foreground max-w-2xl mx-auto" variants={itemVariants}>
-              Cybersecurity enthusiast, reverse engineer, and digital explorer passionate about understanding systems at
-              their deepest level.
+              Stop 🛑! I am Thierry Nshimiyumukiza From Rwanda. I do stuff 🙂
             </motion.p>
           </motion.div>
 
@@ -100,16 +99,20 @@ export default function AboutPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>
-                    Hacker, reverse engineer, and digital enthusiast passionate about exploring the depths of
-                    cybersecurity and system exploitation.
+                    I’m someone who loves taking things apart to understand how they really work — especially when it
+                    comes to computers.
                   </p>
                   <p>
-                    Currently diving deep into malware analysis, binary exploitation, and developing custom tools for
-                    security research.
+                    Right now, I’m diving into reverse engineering, malware analysis, and binary exploitation, learning
+                    how systems behave from the inside out.
                   </p>
                   <p>
-                    I believe in understanding systems from the ground up - from assembly language to high-level
-                    applications, from hardware to software.
+                    I’m not in a rush — just steadily dissecting and learning everything I can, from low-level assembly
+                    all the way up to high-level software and how it all ties into hardware.
+                  </p>
+                  <p>
+                    It's about building a deep, ground-up understanding of how things work — and sometimes, how they
+                    break.
                   </p>
                 </CardContent>
               </Card>
@@ -149,7 +152,7 @@ export default function AboutPage() {
                       width={60}
                       height={60}
                       className="rounded-lg border border-border"
-                      fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iOCIgZmlsbD0iIzNiODJmNiIvPgo8dGV4dCB4PSIzMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmllbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MeWPDqWUKPC90ZXh0Pgo8L3N2Zz4="
+                      fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iOCIgZmlsbD0iIzNiODJmNiIvPgo8dGV4dCB4PSIzMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZmllbGw9IndoaXRlIiB0ZXh0LWFuY2hvcjpsbWlkZGxlIj5MeWPDqWUKPC90ZXh0Pgo8L3N2Zz4="
                     />
                     <div>
                       <h3 className="text-lg font-semibold">Lycée de Kigali</h3>

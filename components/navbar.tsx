@@ -3,11 +3,11 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { ImageWithFallback } from "@/components/image-with-fallback" // Declare ImageWithFallback
-import { ThemeToggle } from "@/components/theme-toggle" // Declare ThemeToggle
+import { ImageWithFallback } from "@/components/image-with-fallback"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
-import { X } from "lucide-react" // Declare X
-import { Menu } from "lucide-react" // Declare Menu
+import { X } from "lucide-react"
+import { Menu } from "lucide-react"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -26,14 +26,14 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-3">
             <ImageWithFallback
-              src="https://sbojnesivcuawnrpjrfu.supabase.co/storage/v1/object/public/sentinels/hacker.png" // Updated URL
-              alt="Logo"
+              src="https://sbojnesivcuawnrpjrfu.supabase.co/storage/v1/object/public/sentinels/hacker.png"
+              alt="Thierry Mukiza Logo" // Updated alt text
               width={32}
               height={32}
               className="rounded-full"
-              fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iMTYiIGZpbGw9IiMzYjgyZjYiLz4KPHN2ZyB4PSI4IiB5PSI4IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+Cjwvc3ZnPg=="
+              fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnPgo8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ5PSIxNiIgZmlsbD0iIzNiODJmNiIvPgo8c3ZnIHg9IjgiIHk9IjgiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN3o3LjU5LTcuNTlMMTkgMThsLTkgOXoiLz4KPC9zdmc+Cjwvc3ZnPg=="
             />
-            <span className="text-xl font-bold text-foreground">EVILKOP SENTINELS</span>
+            <span className="text-xl font-bold text-foreground">THIERRY MUKIZA</span> {/* Updated text */}
           </Link>
 
           {/* Desktop Navigation */}
