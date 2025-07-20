@@ -49,7 +49,7 @@ npm run dev
 ## 🔐 Admin Access
 
 - Navigate to `/admin`
-- Enter password: `Thierry054#`
+- Enter password: 
 - Manage blog posts through the dashboard
 
 ## 🌐 Pages
