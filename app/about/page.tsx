@@ -21,6 +21,7 @@ export default function AboutPage() {
     "Embedded Systems",
     "Assembly Languages",
     "x86 Binary Exploitation",
+    "Burpsuite"
   ]
 
   const interests = [
