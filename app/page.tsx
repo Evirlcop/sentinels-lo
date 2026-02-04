@@ -80,8 +80,7 @@ export default function HomePage() {
           <TypewriterEffect text="THIERRY MUKIZA" speed={100} /> {/* Updated text */}
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-          Hi! What you will see here is related to my obsessions. This place is full of fun stuff, and I will use it to
-          just show what I can do and what I spend time doing. I hope you will enjoy. Blessed.
+          Hi! I do things with computers!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
