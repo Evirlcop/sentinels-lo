@@ -77,7 +77,7 @@ export default function HomePage() {
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground text-glow">
-          <TypewriterEffect text="THIERRY MUKIZA" speed={100} /> {/* Updated text */}
+          <TypewriterEffect text="Owl.exe" speed={100} /> {/* Updated text */}
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
           Hi! I do things with computers!
